@@ -14,26 +14,43 @@ return {
             hybrid_modes = { "n" },
             latex = {
                 enable = true,
+                blocks = {
+                    enable = true,
+					hl = "MarkviewCode",
+					pad_char = " ",
+					pad_amount = 3,
+
+					text = "  LaTeX ",
+					text_hl = "MarkviewCodeInfo"
+                },
+				fonts = {
+					enable = true,
+					default = {
+						enable = true,
+					},
+				},
                 inlines = {
                     enable = true,
 					padding_left = "",
 					padding_right = "",
 					hl = "MarkviewInlineCode"
                 },
-                block = {
-                    enable = true,
-                },
-				texts = {
+				subscripts = {
 					enable = true,
+					fake_preview = true,
+					hl = "MarkviewSubscript"
+				},
+				superscripts = {
+					enable = true,
+					hl = "MarkviewSuperscript"
 				},
 				symbols = {
 					enable = true,
 					hl = "MarkviewComment"
 				},
-				superscripts = {
+				texts = {
 					enable = true,
-					hl = "MarkviewSuperscript"
-				}
+				},
             },
 			markdown = {
 			  enable = true,
