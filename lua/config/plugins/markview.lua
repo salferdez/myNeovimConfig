@@ -17,9 +17,8 @@ return {
                 blocks = {
                     enable = true,
 					hl = "MarkviewCode",
-					pad_char = " ",
+					pad_char = "",
 					pad_amount = 3,
-
 					text = "  LaTeX ",
 					text_hl = "MarkviewCodeInfo"
                 },
